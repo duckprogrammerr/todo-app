@@ -8,22 +8,6 @@ class ContactWithMe extends StatefulWidget {
 }
 
 class _SContactWithMe extends State<ContactWithMe> {
-  var loading = false;
-  @override
-  void initState() {
-    super.initState();
-    setState(() {
-      loading = true;
-    });
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
-    setState(() {
-      loading = false;
-    });
-  }
 
   Widget build(context) {
     return Scaffold(
